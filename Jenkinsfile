@@ -1,5 +1,9 @@
 pipeline { 
-
+  agent { 
+    node { 
+      label any
+    }
+  }
   tools {
     nodejs 'latestNode'
   }
