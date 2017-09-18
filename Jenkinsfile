@@ -1,9 +1,5 @@
 pipeline { 
-  agent { 
-    node { 
 
-    }
-  }
   tools {
     nodejs 'latestNode'
   }
